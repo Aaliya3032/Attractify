@@ -1,0 +1,43 @@
+.landing{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.Hvideo{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Vcard{
+    position:absolute;
+    top: 180px;
+    left: 350px;
+    width: 44%;
+    height: 52%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.Vcard h3{
+    margin: 0%;
+    font-size: 28px;
+    padding-bottom: 0;
+    line-height: 1.5;
+    background: -webkit-linear-gradient(#e66465, #9198e5);
+    background-clip: text;
+   -webkit-text-fill-color: transparent;
+   text-align: center;
+
+}
+.Vcard h4{
+text-align: center;
+font-size: 27px;
+}
+.Hbutton:hover{
+    background-color: #ff4655;
+}

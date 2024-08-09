@@ -1,0 +1,122 @@
+.ContainerServices{
+    position: absolute;
+    top: 598px;
+    left: 0px;
+    background-size: cover;
+    background-image: url(./ServicesBackground.jpg);
+    width: 100%;
+    height: 1450px;
+    box-sizing: border-box;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+.ContainerServices h1{
+    text-align: center;
+  color: #437ac2;
+  padding-top: 5%;
+  margin-bottom: 80px;
+  font-weight: 600;
+  position: relative;
+
+}
+.ContainerServices h1::after {
+    content: "";
+    background: grey;
+    width: 100px;
+    height: 5px;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .ServiceCardContainer{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: 0 auto;
+  }
+  .service-card{
+    height: 250px;
+  width: 330px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 15px;
+  color: white;
+  background-size: cover;
+  display: flex;
+  position: relative;
+  box-shadow: 2px 4px 12px -3px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  overflow: hidden; /* Ensure content doesn't overflow */
+  }
+  .service-card1 {
+    background-image: url(./service-card1.avif);
+    background-repeat: round;
+    background-size: cover;
+  }
+  
+  .service-card2 {
+    background-image: url(./service-card2.avif);
+    background-repeat: round;
+    background-size: cover;
+  }
+  
+  .service-card3 {
+    background-image: url(./service-card3.avif);
+    background-repeat: round;
+    background-size: cover;
+  }
+  .service-card4 {
+    background-image: url(./service-card4.avif);
+    background-repeat: round;
+    background-size: cover;
+  }
+  
+  .service-card5 {
+    background-image: url(./service-card5.avif);
+    background-repeat: round;
+    background-size: cover;
+  }
+  
+  .service-card6 {
+    background-image: url(./service-card6.avif);
+    background-repeat: round;
+    background-size: cover;
+  }
+  .service-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    opacity: 0;
+    transition: all 0.5s ease;
+  }
+  .content-card3 h2 {
+    line-height: 1;
+  }
+  
+  .service-content h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+  
+  .service-content h3 {
+    font-size: 16px;
+    text-align: center;
+    opacity: 0.8;
+  }
+  
+  .service-card:hover .service-content {
+    opacity: 1;
+  }
+  
+  
+  
+  

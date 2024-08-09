@@ -1,0 +1,123 @@
+.FooterContainer{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 4300px;
+    left: 0;
+    width: 100%;
+    height: 650px;
+    margin: 0;
+    padding: 60px 0;
+    padding: 0;
+    background: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./footer-background.png);
+}
+.footer-container h3 {
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    font-weight: 300;
+  }
+  .footer-container a {
+    text-decoration: none;
+    color: var(--dark);
+    font-weight: 400;
+    transition: 0.3s ease-in;
+    border-bottom: 1px solid transparent;
+    margin-bottom: 0.5rem;
+    display: inline-flex;
+  }
+  .footer-container a:hover {
+    border-bottom: 1px solid var(--dark);
+  }
+  
+  .footer-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .footer-btn {
+    appearance: none;
+    border: 0;
+    background: transparent;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  .footer_inner {
+    background-color: #fff;
+    /* background: var(--light);
+    backdrop-filter: blur(50px); */
+    border: 0.1px solid rgba(233, 232, 232, 0.208);
+    border-radius: 5px;
+    padding: 2rem;
+    margin: 1rem 0;
+  }
+  .footer-container {
+  
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 6rem 1rem;
+  }
+  
+  .footer-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: min(100%, 400px);
+    border-bottom: 1px solid grey;
+  }
+  .footer-container input {
+    padding: 0.75rem 0;
+    border: none;
+    background: none;
+    font-weight: 500;
+    transition: border 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+    border-radius: 0;
+    width: 100%;
+    font-size: 1.05rem;
+    font-weight: bolder;
+  }
+  
+  .footer-container input:focus {
+    outline: none;
+  }
+  
+  .footer-container input::placeholder {
+    color: var(--dark);
+  }
+  @media (min-width: 675px) {
+    .layout {
+      display: flex;
+      flex-wrap: nowrap;
+      column-gap: 2rem;
+    }
+  
+    .w-50 {
+      width: 50%;
+    }
+  
+    .w-25 {
+      width: 25%;
+    }
+  }
+  .footer_inner {
+    padding: 1rem;
+  }
+  
+  .footer-svg {
+    margin: 0.5rem;
+  }
+  
+  .c-2 {
+    margin-top: 3.5rem;
+  }
+  
+  .footer_copyright {
+    color: #fff;
+  }
+  .top-btn{
+    cursor: pointer;
+  }
